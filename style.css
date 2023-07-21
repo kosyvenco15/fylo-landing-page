@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+
+}
+body {
+    font-size: 1.6rem;
+ max-width: 144rem;
+ font-family: sans-serif;
+ font-weight: 400   ;
+}
+nav{
+    display: flex;
+   justify-content:space-between;
+   padding: 30px;
+}
+a{
+    text-decoration: none;
+    color:  hsl(243, 87%, 12%);
+}
+.ul{
+    list-style: none;
+}
+ul{
+    display: flex;
+}
+li{
+    margin: 10px;
+}
+.link{
+    text-transform: capitalize;
+    color:   hsl(243, 87%, 12%)
+}
+
+header {
+display: flex;
+align-items: center;
+padding: 30px;
+margin-bottom: 13rem;
+}
+.section1{
+    width: 52rem;
+}
+.section2{
+width: 50%;
+}
+.image1{
+    width: 100%;
+}
+input{
+    padding: 0.3rem;
+   outline: none;
+    margin-right: 1.2rem;
+    width: 60%;
+}
+input:invalid{
+    border: 1px solid red;
+} 
+p{
+    margin-bottom: 1rem;
+}
+button{
+    background-color: blue;
+    color: white;
+    padding:0.3rem;
+    border: none;
+    width: 30%;
+}
+.block{
+    display: block;
+    margin-bottom: 1rem;
+}
+h1{
+    margin-bottom: 1rem;
+}
+.get:hover{
+    cursor: pointer;
+    background-color: rgba(48,101,248,0.8);
+}
+.section-1{
+    display: flex;
+    justify-content: space-between;
+    background-color:hsla(240, 75%, 98%,0.8); 
+    padding: 10rem 5rem;
+    position: relative;
+    align-items: center;
+}
+.section-1__text{
+    width: 50%;
+}
+.section-1__image{
+    width: 45%;
+}
+.illustration-2{
+    width: 100%;
+}
+.bg-image{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: -7rem;
+}
+.heading--secondary{
+    margin-bottom: 2.5rem;
+    font-size: 3rem;
+}
+.section-1__description{
+    width: 52rem;
+    margin-bottom: 1.5rem;
+}
+.see{
+    color: green;
+    text-decoration: underline;
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+.div2{
+    background-color: white;
+    width: 38rem;
+    padding: 3rem 2rem;
+    box-shadow: .4rem .4rem 2.5rem rgba(0, 0, 0, 0.1);
+   border-radius: 1rem; 
+}
+.found{
+
+}
+.ceo{
+    /* border-radius: 50%; */
+    /* width: 4rem; */
+    /* height: 4rem; */
+}
+
+.avater{
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+}
+.holder{
+    display: flex;
+    text-align: center;
+    gap: 1rem;
+    font-size: 1.3rem;
+}
+
+
+
