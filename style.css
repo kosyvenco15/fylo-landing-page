@@ -52,7 +52,7 @@ width: 50%;
     width: 100%;
 }
 input{
-    padding: 0.3rem;
+    padding: 1rem;
    outline: none;
     margin-right: 1.2rem;
     width: 60%;
@@ -76,6 +76,9 @@ button{
 }
 h1{
     margin-bottom: 1rem;
+}
+.get {
+    padding-block: 1rem;
 }
 .get:hover{
     cursor: pointer;
@@ -141,10 +144,81 @@ h1{
 }
 .holder{
     display: flex;
-    text-align: center;
-    gap: 1rem;
+    gap: .1rem;
     font-size: 1.3rem;
+    align-items: center;
 }
-
-
+.section-3-main{
+    background-color:hsl(238, 22%, 44%);
+    display: flex;
+    justify-content: space-between;
+   padding: 5rem;
+}
+.main-section3-p{
+    width: 80%;
+    padding-left: 3rem;
+    font-family: sans-serif;
+    line-height: 2rem;
+}
+h3{
+    padding-left: 3rem;
+    /* margin-bottom: 2rem; */
+}
+.form1{
+    width: 80%;
+}
+.form1a{
+    display: block;
+    align-items: center;
+    background-color: blue;
+    color: white;
+    padding: 1rem;
+    width: 50%;
+}
+.emailclass{
+    margin-bottom: 1rem;
+    width: 80%;
+    padding: 1rem;
+}
+.main-section3-text{
+    color: white;
+}
+footer{
+    background-color: hsl(243, 87%, 12%);
+    padding: 5rem;
+}
+.general-div-footer{
+    display: flex;
+   justify-content: space-between;
+   color: white;
+}
+.p-text{
+    display: inline-block;
+}
+li{
+    list-style: none;
+}
+.div-4-footer{
+    padding-right: 10rem;
+    display: flex;
+    gap: 1rem;
+}
+.img-div{
+    margin-bottom: 2rem;
+}
+.footer-img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: solid 1px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fylo-improved{
+    line-height: 2rem;
+}
+.footer__logo{
+    color: white;
+}
 
